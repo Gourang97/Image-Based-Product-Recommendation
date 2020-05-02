@@ -65,7 +65,7 @@ images for each of the 5 article types.
     2. Spatial Distances
  
  ## Results-
- - Selecting optimum dimensions to be used using Scree and Elbow Plot.[https://github.com/Gourang97/Fashion_dataset_uml/blob/master/Results/elbow_curve_tshirts.png]
+ - Selecting optimum dimensions to be used using Scree and Elbow Plot.<br/><center><img src="https://github.com/Gourang97/Fashion_dataset_uml/blob/master/Results/elbow_curve_tshirts.png" width="800" height="400"></center>
  
 <b>- Dimensionality Reduction</b>
 1. PCA on original Image
@@ -80,7 +80,7 @@ images for each of the 5 article types.
 1.1 PCA Results
 
 * [KMeans with PCA]
-    <br/><center><img src="https://github.com/Gourang97/Fashion_dataset_uml/blob/master/Results/kmeans/pcaKmeans.png" width="400" height="200"></center>
+    <br/><img src="https://github.com/Gourang97/Fashion_dataset_uml/blob/master/Results/kmeans/pcaKmeans.png" width="400" height="200" align = "center" >
     
 1.2 TSNE Results
 
