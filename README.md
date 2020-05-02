@@ -1,5 +1,7 @@
 # Image-based Product Recommendation System [An Unsupervised Way]
 
+<br/><center><img src="https://github.com/Gourang97/Fashion_dataset_uml/blob/master/Results/FirstSlide.PNG" width="400" height="200"></center>
+
 ## Idea
 Current implementations of image recommendations are used by giant e-commerce portals like
 Amazon, Alibaba, etc but still stand inefficient in the sense they require user text input. We, on
@@ -12,6 +14,28 @@ domain. This engine will take as input an image of a certain product and recomme
 products that resemble closely to the input image. We aim to achieve this goal by implementing
 a combination of dimensionality reduction, clustering, modelling and recommendation system
 techniques.
+
+## Dataset
+
+The fashion industry is one of the most prominent parts of the e-commerce industry and has
+tons of data publicly available. We decided to use the Fashion Product Image dataset for our
+project. It’s a rich dataset of product features and images spread across 7 master categories, 49
+subcategories, and 143 article types. Each product has a unique id to distinguish them.
+The dataset can broadly be divided into image data and style data. The data is described as
+follows:
+1. Image data: Each image has a unique id and is of size 2400*1800*3. All the images
+have a clear white background with the object in the foreground.
+2. Style data: The styles.csv contains metadata about the image. Analysis of various fields
+like ‘gender’, ‘masterCategory’, ‘subCategory’, ‘articleType’ tells us about the distribution
+of the data.
+The dataset is highly imbalanced across the different article types. To overcome this
+shortcoming, we started our implementation by taking into account the top 5 article type and
+verifying it through a thorough analysis of the product features. The article types which we
+finalized are: T-shirts, Shirts, Casual Shoes, Watches and Sports Shoes. We used 1000 images
+of each article type. Considering the problem statement and the practical nature of the project,
+we implemented an Image Data Generator to perform image augmentation by rotating and
+capturing images through 4 different angles. The new augmented dataset consisted of 5000
+images for each of the 5 article types.
 
 ## Steps Involved for Building Recommender System in an Unsupervised Way- 
 - Data Loading
@@ -75,12 +99,21 @@ techniques.
 3.2 TSNE Results
 
 * [AGG with TSNE]
-    <br/><center><img src="https://github.com/Gourang97/Fashion_dataset_uml/blob/master/Results/AGG/tsneAggWard.png" width="400" height="200"></center>
+    <br/><center><img src="https://github.com/Gourang97/Fashion_dataset_uml/blob/master/Results/AGG/aggTSNE.png" width="400" height="200"></center>
     
-<b>- Select Best Clusterting technique to be used</b> 
+<b>- Select Best Clusterting technique to be used</b>
+
+<br/><center><img src="https://github.com/Gourang97/Fashion_dataset_uml/blob/master/Results/ClusterComparison.PNG"></center>
+
 <b>- Use Distance metrices to Recommend Images</b>
+
+<br/><center><img src="https://github.com/Gourang97/Fashion_dataset_uml/blob/master/Results/final_result_recommed.PNG"></center>
     
--Cosine Similarity and Spatial Distances
+<b>-Cosine Similarity and Spatial Distances</b>
+
+We finally recommend 5 similar images for every product entered as input @e-commerce by the user using best output from spatial or cosine similarity metrics.
+
+<br/><center><img src="https://github.com/Gourang97/Fashion_dataset_uml/blob/master/Results/final_result_recommed.PNG"></center>
  
  
    
