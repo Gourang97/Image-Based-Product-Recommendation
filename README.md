@@ -34,33 +34,33 @@ techniques.
  ## Results-
  - Selecting optimum dimensions to be used using Scree and Elbow Plot.[https://github.com/Gourang97/Fashion_dataset_uml/blob/master/Results/elbow_curve_tshirts.png]
  <b>- Dimensionality Reduction</b>
-   1. PCA on original Image
+1. PCA on original Image
    <br/><center><img src="https://github.com/Gourang97/Fashion_dataset_uml/blob/master/Results/pca_original.png" width="400" height="200"></center>
-   2. TSNE on original image
+2. TSNE on original image
    <br/><center><img src="https://github.com/Gourang97/Fashion_dataset_uml/blob/master/Results/tsneOriginal.png" width="400" height="200"></center>
 - Selecting optimum Cluster uing SSE Plot
 <br/><center><img src="https://github.com/Gourang97/Fashion_dataset_uml/blob/master/Results/elbow_curve_shoes.png" width="400" height="200"></center>
 <b>- Clustering -</b>
-    1. KMeans
-     <b>1.1 PCA Results</b>
-    * KMeans with PCA
+1. KMeans
+<b>1.1 PCA Results</b>
+* KMeans with PCA
     <br/><center><img src="https://github.com/Gourang97/Fashion_dataset_uml/blob/master/Results/kmeans/pcaKmeans.png" width="400" height="200"></center>
-    <b>1.2 TSNE Results </b>
-    * [KMeans with TSNE]
+<b>1.2 TSNE Results </b>
+ * [KMeans with TSNE]
     <br/><center><img src="https://github.com/Gourang97/Fashion_dataset_uml/blob/master/Results/kmeans/tsneKMeans.png" width="400" height="200"></center>
-    <b>2. Gaussian Mixture Model</b>
-    2.1 PCA Results
-    * [GMM with PCA]
+<b>2. Gaussian Mixture Model</b>
+2.1 PCA Results
+* [GMM with PCA]
     <br/><center><img src="https://github.com/Gourang97/Fashion_dataset_uml/blob/master/Results/GMM/pcaGmm.png" width="400" height="200"></center>
-    2.2 TSNE Results
-    * [GMM with TSNE]
+2.2 TSNE Results
+* [GMM with TSNE]
     <br/><center><img src="https://github.com/Gourang97/Fashion_dataset_uml/blob/master/Results/GMM/tsneGmm.png" width="400" height="200"></center>
-    <b> 3. Agglomerative Clustering </b>
-    3.1 PCA Results
-    * [AGG with PCA]
+<b> 3. Agglomerative Clustering </b>
+3.1 PCA Results
+* [AGG with PCA]
     <br/><center><img src="https://github.com/Gourang97/Fashion_dataset_uml/blob/master/Results/AGG/pcaAggWard.png" width="400" height="200"></center>
-    3.2 TSNE Results
-    * [AGG with TSNE]
+3.2 TSNE Results
+* [AGG with TSNE]
     <br/><center><img src="https://github.com/Gourang97/Fashion_dataset_uml/blob/master/Results/AGG/tsneAggWard.png" width="400" height="200"></center>
  <b>- Select Best Clusterting technique to be used </b>
  <b>- Use Distance metrices to Recommend Images</b>
