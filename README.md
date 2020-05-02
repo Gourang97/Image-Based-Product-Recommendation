@@ -48,11 +48,13 @@ techniques.
 
 * [KMeans with PCA]
     <br/><center><img src="https://github.com/Gourang97/Fashion_dataset_uml/blob/master/Results/kmeans/pcaKmeans.png" width="400" height="200"></center>
+    
 1.2 TSNE Results
 
  * [KMeans with TSNE]
     <br/><center><img src="https://github.com/Gourang97/Fashion_dataset_uml/blob/master/Results/kmeans/tsneKMeans.png" width="400" height="200"></center>
 2. Gaussian Mixture Model
+
 2.1 PCA Results
 
 * [GMM with PCA]
@@ -61,11 +63,14 @@ techniques.
 
 * [GMM with TSNE]
     <br/><center><img src="https://github.com/Gourang97/Fashion_dataset_uml/blob/master/Results/GMM/tsneGmm.png" width="400" height="200"></center>
+    
 <b> 3. Agglomerative Clustering </b>
+
 3.1 PCA Results
 
 * [AGG with PCA]
     <br/><center><img src="https://github.com/Gourang97/Fashion_dataset_uml/blob/master/Results/AGG/pcaAggWard.png" width="400" height="200"></center>
+    
 3.2 TSNE Results
 
 * [AGG with TSNE]
