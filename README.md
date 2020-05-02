@@ -2,6 +2,8 @@
 
 <br/><center><img src="https://github.com/Gourang97/Fashion_dataset_uml/blob/master/Results/FirstSlide.PNG" width="800" height="400"></center>
 
+# Author - Gourang Patel [www.linkedin.com/in/gourang-patel]
+
 ## Idea
 
 <p align="justify">Current implementations of image recommendations are used by giant e-commerce portals like
