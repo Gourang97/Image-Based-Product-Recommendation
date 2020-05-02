@@ -39,7 +39,12 @@ we implemented an Image Data Generator to perform image augmentation by rotating
 capturing images through 4 different angles. The new augmented dataset consisted of 5000
 images for each of the 5 article types.
 
+<br/><center><img src="https://github.com/Gourang97/Fashion_dataset_uml/blob/master/Results/Dataset_img.PNG" width="800" height="400"></center>
+
 ## Steps Involved for Building Recommender System in an Unsupervised Way- 
+
+<br/><center><img src="https://github.com/Gourang97/Fashion_dataset_uml/blob/master/Results/approach.PNG" width="800" height="400"></center>
+
 - Data Loading
 - Selecting optimum dimensions to be used using Scree and Elbow Plot.
 - Dimensionality Reduction
