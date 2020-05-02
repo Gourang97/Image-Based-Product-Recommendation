@@ -1,12 +1,13 @@
 # Image-based Product Recommendation System on Fashion Dataset [An Unsupervised Way]
-<align="justify">
+
 <br/><center><img src="https://github.com/Gourang97/Fashion_dataset_uml/blob/master/Results/FirstSlide.PNG" width="800" height="400"></center>
 
 ## Idea
-Current implementations of image recommendations are used by giant e-commerce portals like
+
+<p align="justify">Current implementations of image recommendations are used by giant e-commerce portals like
 Amazon, Alibaba, etc but still stand inefficient in the sense they require user text input. We, on
 the other hand, intend to optimize the whole system by taking images as input from the user.
-This would enhance the customer experience and fill up the gaps faced in text searches
+This would enhance the customer experience and fill up the gaps faced in text searches</p>
 
 ## Problem Statement
 Develop an image-based product recommendation system used primarily in the e-commerce
