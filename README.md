@@ -10,15 +10,16 @@ the other hand, intend to optimize the whole system by taking images as input fr
 This would enhance the customer experience and fill up the gaps faced in text searches</p>
 
 ## Problem Statement
-Develop an image-based product recommendation system used primarily in the e-commerce
+
+<p align="justify">Develop an image-based product recommendation system used primarily in the e-commerce
 domain. This engine will take as input an image of a certain product and recommend 5 similar
 products that resemble closely to the input image. We aim to achieve this goal by implementing
 a combination of dimensionality reduction, clustering, modelling and recommendation system
-techniques.
+techniques.</p>
 
 ## Dataset
 
-The fashion industry is one of the most prominent parts of the e-commerce industry and has
+<p align="justify">The fashion industry is one of the most prominent parts of the e-commerce industry and has
 tons of data publicly available. We decided to use the [Fashion Product Image dataset](https://www.kaggle.com/paramaggarwal/fashion-product-images-dataset) for our
 project. It’s a rich dataset of product features and images spread across 7 master categories, 49
 subcategories, and 143 article types. Each product has a unique id to distinguish them.
@@ -40,7 +41,7 @@ we implemented an Image Data Generator to perform image augmentation by rotating
 capturing images through 4 different angles. The new augmented dataset consisted of 5000
 images for each of the 5 article types.
 
-<br/><center><img src="https://github.com/Gourang97/Fashion_dataset_uml/blob/master/Results/Dataset_img.PNG" width="800" height="400"></center>
+<br/><center><img src="https://github.com/Gourang97/Fashion_dataset_uml/blob/master/Results/Dataset_img.PNG" width="800" height="400"></center></p>
 
 ## Steps Involved for Building Recommender System in an Unsupervised Way- 
 
