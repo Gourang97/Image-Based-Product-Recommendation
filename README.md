@@ -59,6 +59,7 @@ techniques.
 
 * [GMM with PCA]
     <br/><center><img src="https://github.com/Gourang97/Fashion_dataset_uml/blob/master/Results/GMM/pcaGmm.png" width="400" height="200"></center>
+    
 2.2 TSNE Results
 
 * [GMM with TSNE]
