@@ -120,6 +120,11 @@ images for each of the 5 article types.
 We finally recommend 5 similar images for every product entered as input @e-commerce by the user using best output from spatial or cosine similarity metrics.
 
 <br/><center><img src="https://github.com/Gourang97/Fashion_dataset_uml/blob/master/Results/final_result_recommed.PNG"></center>
+
+## Future Work 
+- Integration with an e-commerce website with frontend and test recommendation engine on real time.
+- Approach the problem-set with suprevised way as classification would lead to better results and accuaracy. Products like Casual shoes and sports shoes will be better segregated or differentiated using Neural Networks.
+- Explore more distance metrices.
  
  
    
