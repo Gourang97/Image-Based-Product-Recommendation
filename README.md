@@ -40,15 +40,15 @@ techniques.
    <br/><center><img src="https://github.com/Gourang97/Fashion_dataset_uml/blob/master/Results/tsneOriginal.png" width="400" height="200"></center>
 - Selecting optimum Cluster uing SSE Plot
 <br/><center><img src="https://github.com/Gourang97/Fashion_dataset_uml/blob/master/Results/elbow_curve_shoes.png" width="400" height="200"></center>
-<b>- Clustering -</b>
+- Clustering -
 1. KMeans
-<b>1.1 PCA Results</b>
+1.1 PCA Results
 * KMeans with PCA
     <br/><center><img src="https://github.com/Gourang97/Fashion_dataset_uml/blob/master/Results/kmeans/pcaKmeans.png" width="400" height="200"></center>
-<b>1.2 TSNE Results </b>
+1.2 TSNE Results
  * [KMeans with TSNE]
     <br/><center><img src="https://github.com/Gourang97/Fashion_dataset_uml/blob/master/Results/kmeans/tsneKMeans.png" width="400" height="200"></center>
-<b>2. Gaussian Mixture Model</b>
+2. Gaussian Mixture Model
 2.1 PCA Results
 * [GMM with PCA]
     <br/><center><img src="https://github.com/Gourang97/Fashion_dataset_uml/blob/master/Results/GMM/pcaGmm.png" width="400" height="200"></center>
@@ -62,8 +62,8 @@ techniques.
 3.2 TSNE Results
 * [AGG with TSNE]
     <br/><center><img src="https://github.com/Gourang97/Fashion_dataset_uml/blob/master/Results/AGG/tsneAggWard.png" width="400" height="200"></center>
- <b>- Select Best Clusterting technique to be used </b>
- <b>- Use Distance metrices to Recommend Images</b>
+ - Select Best Clusterting technique to be used 
+ - Use Distance metrices to Recommend Images
     Cosine Similarity and Spatial Distances
  
  
