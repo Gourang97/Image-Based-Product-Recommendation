@@ -33,7 +33,8 @@ techniques.
  
  ## Results-
  - Selecting optimum dimensions to be used using Scree and Elbow Plot.[https://github.com/Gourang97/Fashion_dataset_uml/blob/master/Results/elbow_curve_tshirts.png]
- <b>- Dimensionality Reduction</b>
+ 
+<b>- Dimensionality Reduction</b>
 1. PCA on original Image
    <br/><center><img src="https://github.com/Gourang97/Fashion_dataset_uml/blob/master/Results/pca_original.png" width="400" height="200"></center>
 2. TSNE on original image
